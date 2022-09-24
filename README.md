@@ -12,8 +12,34 @@ Anggota Kelompok C07 :
 ## 3. Filter sehingga wireshark hanya menampilkan paket yang menuju port 80! 
 ## 4. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
 ## 5. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
+<img src="img/5-1.png">
+Penjelasan :
+<br>
+Menggunakan display filter : tcp.srcport == 443
+
+
 ## 6. Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
+
+<img src="img/6-1.png">
+Penjelasan :
+<br>
+Mengambil ip dari website lipi.go.id menggunakan ping di dalam cmd
+<img src="img/6-2.png">
+Lalu menggunakan ip address website lipi.go.id (203.160.128.158) untuk display filter : ip.dst == 203.160.128.158
+
 ## 7. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+<img src="img/7-1.png">
+<img src="img/7-2.png">
+<img src="img/7-3.png">
+<img src="img/7-4.png">
+Penjelasan :
+<br>
+Penjelasan:
+Mendapatkan Ip address pribadi dengan :
+Membuka Settings -> Network & Internet -> WIFI -> pilih network WIFI yang telah terkoneksi -> properties -> Ip address tertulis di sebelah IPv4 Address. Setelah mendapatkan IP Address, IP address digunakan sebagai capture filter dengan syntax : Src host [IP Address pribadi]
+
+
+
 ## 8. Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
 ## 9. Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.
 ## 10. Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
