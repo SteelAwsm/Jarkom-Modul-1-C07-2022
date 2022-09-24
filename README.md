@@ -87,10 +87,7 @@ Pertama, kita cari terlebih dahulu paket yang mengandung kata “salted” atau 
 ![image](https://user-images.githubusercontent.com/72655925/192102829-d12134b2-0d52-49e4-b7a8-8b418e123bcc.png)
 ![image](https://user-images.githubusercontent.com/72655925/192102873-86e9d663-74f6-447c-8b76-e594780d1cc3.png)
 ## 10. Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
-
-<br>
-<br>
-<br>
+-
 ## Kendala yang dialami:
 * menemukan password untuk no 10
 * belum diajari dalam menggunakan openssl
