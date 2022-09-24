@@ -25,9 +25,9 @@ Hasil : <br>
 <br>Penjelasan :
 <br>Menggunakan display filter : http contains topik
 ![image](https://user-images.githubusercontent.com/72655925/192094790-4ae8ef76-e436-4cde-9ffc-74f57222f294.png)
-<br>Meng-export file 194 karena memiliki path /topik/detailTopik/194
+<br>Meng-export file 194 karena memiliki path /topik/detailTopik/194<br>
 ![image](https://user-images.githubusercontent.com/72655925/192094987-61c34bb8-585b-4e4a-888c-396637ce61af.png)
-<br>Menjalankan file 194.html dan akan menampilkan page Detail Topik yang dibuka Ishaq
+<br>Menjalankan file 194.html dan akan menampilkan page Detail Topik yang dibuka Ishaq<br>
 ![image](https://user-images.githubusercontent.com/72655925/192095040-bbaf9641-ebef-4317-8987-0e6e457d4572.png)
 
 
