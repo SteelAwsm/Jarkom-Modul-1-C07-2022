@@ -14,7 +14,7 @@ Penjelasan : <br>
 Menggunakan display filter : http.host contains monta.if.its.ac.id <br>
 Hasil : <br>
 ![image](https://user-images.githubusercontent.com/78362238/192098540-496fdc1c-1162-4211-afe9-fd997b286ddf.png)
-<br>Hasil Follow HTTP Stream :
+<br>Hasil Follow HTTP Stream :<br>
 ![image](https://user-images.githubusercontent.com/78362238/192098559-e01943c3-92ab-4bde-8ad7-329879591de6.png)
 <br>
 ![image](https://user-images.githubusercontent.com/78362238/192098580-0be3cafc-bc3f-4787-a18d-3d5405e9cb76.png)
@@ -32,7 +32,7 @@ Hasil : <br>
 
 
 ## 3. Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!
-display filter: tcp.dstport == 80 || udp.dstport == 800
+display filter: tcp.dstport == 80 || udp.dstport == 800<br>
 ![image](https://user-images.githubusercontent.com/78362238/192098886-e6f80b1b-aa98-4b5c-ba39-cb46bcc37de6.png)
 <br>
 Penjelasan: <br>
