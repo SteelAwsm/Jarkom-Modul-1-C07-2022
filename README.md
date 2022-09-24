@@ -78,9 +78,9 @@ Membuka Settings -> Network & Internet -> WIFI -> pilih network WIFI yang telah 
 
 
 ## 8. Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
-Jawaban:
+Jawaban:<br>
 ![image](https://user-images.githubusercontent.com/72655925/192096550-49c63410-7b90-4d7a-ba8f-db54481f4ebd.png)
-Penjelasan:
+<br>Penjelasan:
 <br>Cari dulu file dengan ip.addr == 127.0.0.1, lalu di TCP Stream salah satu paket. Untuk total chattingan yang dilakukan terdapat 3 chattingan yang ditemukan untuk tiap stream pada beberapa paket yang berbeda.
 ## 9. Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.
 ## 10. Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
