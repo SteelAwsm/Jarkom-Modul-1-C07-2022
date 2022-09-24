@@ -8,6 +8,18 @@ Anggota Kelompok C07 :
 * 5025201209 - Hemakesha Ramadhani Heriqbaldi
 
 ## 1. Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
+Server : nginx 1.10.3 <br>
+display filter : http.host contains monta.if.its.ac.id <br>
+Penjelasan : <br>
+Menggunakan display filter : http.host contains monta.if.its.ac.id <br>
+Hasil : <br>
+![image](https://user-images.githubusercontent.com/78362238/192098540-496fdc1c-1162-4211-afe9-fd997b286ddf.png)
+<br>Hasil Follow HTTP Stream :
+![image](https://user-images.githubusercontent.com/78362238/192098559-e01943c3-92ab-4bde-8ad7-329879591de6.png)
+<br>
+![image](https://user-images.githubusercontent.com/78362238/192098580-0be3cafc-bc3f-4787-a18d-3d5405e9cb76.png)
+
+
 ## 2. Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
 ![image](https://user-images.githubusercontent.com/72655925/192095040-bbaf9641-ebef-4317-8987-0e6e457d4572.png)
 <br>Penjelasan :
@@ -19,8 +31,23 @@ Anggota Kelompok C07 :
 ![image](https://user-images.githubusercontent.com/72655925/192095040-bbaf9641-ebef-4317-8987-0e6e457d4572.png)
 
 
-## 3. Filter sehingga wireshark hanya menampilkan paket yang menuju port 80! 
+## 3. Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!
+display filter: tcp.dstport == 80 || udp.dstport == 800
+![image](https://user-images.githubusercontent.com/78362238/192098886-e6f80b1b-aa98-4b5c-ba39-cb46bcc37de6.png)
+<br>
+Penjelasan: <br>
+Menggunakan display filter : tcp.dstport == 80 || udp.dstport == 800 <br>
+Untuk menampilkan paket yang menuju port 80
+
+
 ## 4. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
+Display filter : tcp.srcport == 21
+![image](https://user-images.githubusercontent.com/78362238/192099107-33657ea7-9675-4d6e-a4be-636fee50989b.png)
+Penjelasan: <br>
+Menggunakan display filter: tcp.srcport == 21 <br>
+Untuk mengambil paket yang berasal dari port 21
+
+
 ## 5. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
 <img src="img/5-1.png">
 Penjelasan :
