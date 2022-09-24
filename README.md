@@ -9,7 +9,7 @@ Anggota Kelompok C07 :
 
 ## 1. Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
 ## 2. Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
-![image](https://user-images.githubusercontent.com/72655925/192094694-3a2e2a2f-f449-43f2-a9bb-c95b2cb0c1cf.png)
+![image](https://user-images.githubusercontent.com/72655925/192095040-bbaf9641-ebef-4317-8987-0e6e457d4572.png)
 <br>Penjelasan :
 <br>Menggunakan display filter : http contains topik
 ![image](https://user-images.githubusercontent.com/72655925/192094790-4ae8ef76-e436-4cde-9ffc-74f57222f294.png)
